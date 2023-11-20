@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Dancing+Script:wght@700&family=Indie+Flower&family=Josefin+Sans&family=Rubik+Iso&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #000; /* Dark Gray (similar to gray-900) */
+}
+
+.boy{
+  font-family: 'Rubik Iso', cursive;
+}
+.head{
+  font-family: 'Dancing Script', cursive;
+}
+.girl{
+  font-family: 'Caveat', cursive;
+}
+.indie{
+  font-family: 'Indie Flower', cursive;
+}
+.man{
+  font-family: 'Josefin Sans', sans-serif;
+}
