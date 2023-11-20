@@ -115,22 +115,7 @@ const Card2 = () => {
                          </div>
                       </div> 
 
-                      <div className=''>
-                        <div className='flex text-blue-200 font-bold space-x-4 absolute bottom-[20px] mx-[520px] man text-[10px]'>
-                            <div>
-                                <Link href="/">HOME</Link>
-                            </div>
-                            <div>
-                                <Link href="/">PROJECT</Link>
-                            </div>
-                            <div>
-                                <Link href="/">ABOUT</Link>
-                            </div>
-                            <div>
-                                <Link href="/">CONTACT</Link>
-                            </div>
-                        </div>
-                    </div>
+                      
                 </div>
               </div>
               

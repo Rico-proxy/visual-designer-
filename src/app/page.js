@@ -4,9 +4,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Card2 from '@/components/fixed/Card2'
 import { BiBookContent,BiNews,BiMobileLandscape,BiRightArrowAlt } from "react-icons/bi";
+import Footer from '@/components/fixed/Footer'
 export default function Home() {
   return (
-    <main className="  min-h-screen flex-col  text-center justify-between ">
+    <main className="  h-[100vh] flex-col  text-center justify-between ">
       <First/>
       <section className=''>
         <div className='grid grid-cols-2 text-white min-h-screen relative '>
@@ -24,7 +25,7 @@ export default function Home() {
       <section className='relative'>
             <Card2/>
       </section>
-     
+      <Footer/>
     </main>
   )
 }
